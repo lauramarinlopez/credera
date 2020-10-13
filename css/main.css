@@ -1,0 +1,92 @@
+body {
+  margin:2rem;
+  padding: 0px;
+}
+
+.card{
+  overflow:hidden;
+  width: 270px;
+  height: 380px;
+  box-shadow: 0px 2px 8px 0px #bfc7ca;
+  display:flex;
+  flex-direction:column;
+  border-radius: 5px;
+  }
+
+.card_image {
+  height:10rem;
+  width:100%;
+  object-fit:contain;
+  }
+
+.card_accent {
+  width: 270px;
+  height: 3px;
+  background: #F55423;
+  opacity: 1;
+  top: 190px;
+  position: absolute;
+  border: 0px solid rgba(150,150,150,1);
+  overflow: hidden;
+}
+
+.card_date {
+  padding: 0.5rem 1.5rem 0;
+  margin-bottom: -1rem;
+  font-size: 10px;
+  font-family: Open Sans;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color:#9B9B9B;
+  text-align: left;
+  top: 166px;
+  left: 25px;
+}
+.card_title {
+  padding: 5px 1.5rem 0;
+  font-size: 16px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  text-align: left;
+  line-height: 21.79px;
+  width: 220px;
+  top: 192px;
+  left: 25px;
+
+}
+
+.card_description {
+  padding: 0 1.5rem 0;
+  font-size: 12px;
+  font-weight: normal;
+  font-family: Merriweather;
+  font-style: normal;
+  letter-spacing: 0.1px;
+  color: #4A4A4A;
+  line-height: 18px;
+  width: 216px;
+  top: 251px;
+  left: 25px;
+}
+
+.card_link {
+  text-decoration: none;
+  padding: 0.5rem 1.5rem 0;
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 13.62px;
+  letter-spacing: 0.5px;
+  color: #F55423;
+
+}
+  .card_link::after {
+    content: '\f061';
+    font-family: "Font Awesome 5 Free";
+    -webkit-text-stroke: .05px #F55423;
+    font-weight: 800;
+    position: relative;
+    left:0.5rem;
+  }
